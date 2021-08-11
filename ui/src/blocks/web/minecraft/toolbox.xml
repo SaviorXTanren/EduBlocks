@@ -1,0 +1,120 @@
+<category name="Minecraft" colour="#28CF2F" iconclass="blocklyTreeIconCustom minecraft">
+
+	<label text="Minecraft" web-class="myLabelStyle"></label>
+
+	<block type="minecraft_connect">
+		<value name="Address">
+			<block type="text">
+				<field name="TEXT">mc.tokyocodingclub.com</field>
+			</block>
+		</value>
+	</block>
+	
+	<block type="minecraft_chat_posttochat">
+		<value name="Message">
+		   <block type="text">
+			  <field name="TEXT">Hello World!</field>
+		   </block>
+		</value>
+	</block>
+	
+	<block type="minecraft_player_gettilepos"></block>
+	
+	<block type="minecraft_player_settilepos">
+		<value name="X">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="Y">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="Z">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+	</block>
+
+	<block type="minecraft_block_getblock">
+		<value name="X">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="Y">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="Z">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+	</block>
+	
+	<block type="minecraft_block_setblock">
+		<value name="X">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="Y">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="Z">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="Block ID">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+	</block>
+	
+	<block type="minecraft_block_setblocks">
+		<value name="Start X">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="Start Y">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="Start Z">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="End X">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="End Y">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="End Z">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="Block ID">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+	</block>
+
+</category>

@@ -719,6 +719,10 @@ button{
     content: "\f53f";
 }
 
+.blocklyTreeIconCustom.minecraft::before {
+    content: "\f1b2";
+}
+
 iframe > body {
     background: white !important;
 }
